@@ -1,0 +1,58 @@
+{
+  "name": "BPD",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "moment": "^2.20.1",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-config": "^0.9.1",
+    "react-native-drawer": "^2.5.0",
+    "react-native-fingerprint-scanner": "^2.2.1",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-modal-datetime-picker": "^4.13.0",
+    "react-native-sensitive-info": "^5.1.0",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-swipeable": "^0.6.0",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-swiper": "^1.5.13",
+    "react-native-textinput-effects": "^0.4.1",
+    "react-native-vector-icons": "^4.4.2",
+    "react-redux": "^5.0.6",
+    "react-router-native": "^4.2.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.4.2",
+    "redux-thunk": "^2.2.0",
+    "save": "^2.3.1",
+    "tinycolor2": "^1.4.1",
+    "validator": "^9.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.1.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
